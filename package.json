@@ -1,0 +1,23 @@
+{
+  "name": "kss-base",
+  "version": "1.0.0",
+  "description": "base setup for kss",
+  "main": "index.js",
+  "dependencies": {
+    "kss": "^3.0.0-beta.18",
+    "michelangelo": "^0.6.1"
+  },
+  "devDependencies": {
+    "kss": "^3.0.0-beta.18",
+    "michelangelo": "^0.6.1",
+    "onchange": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kss": "kss --config kss-config.json",
+    "watch": "onchange 'sass/**/*.sass' -- npm run kss",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Kim Seav",
+  "license": "ISC"
+}
