@@ -5,9 +5,10 @@ How to use this Navigate to root directory of "kss-base" and run 'npm install'.
 You will need node.js to be able to install packages using npm. Dependancies have already been set in package.json.
 
 To compile KSS markdown (comments and html)
-	•	npm run kss
+- npm run kss
+
 To convert sass to css (sass only)
-	•	npm run scss
+- npm run scss
 	
 Refer to these docos as a guide: https://css-tricks.com/build-style-guide-straight-sass/https://www.npmjs.com/package/kss https://github.com/kss-node/kss-node
 
